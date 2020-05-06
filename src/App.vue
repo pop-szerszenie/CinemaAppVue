@@ -6,8 +6,8 @@
           <p>CINCITY</p>
          </div>
          <div class="icon_right">
-           <img class="icon1" src="./assets/icon1.png">
-           <img class="icon2" src="./assets/icon2.png">
+           <img class="icon1" src="#">
+           <img class="icon2" src="#">
          </div>
       </div>
       <!-- END HEADER SECTION -->
@@ -42,6 +42,7 @@
           <div class="film_box">
              <img src="./assets/transformers.png">
              <h3>Transformers: The last knight</h3>
+             <a href="reservation.html"><img class="arrow" src="./assets/right-arrow.png" alt="We cant load arrow"></a>
              <p>2017 | Fantasy film | 2h 34min</p>
              <h5>2D</h5>
              <div class="buttons_2d">
@@ -58,6 +59,7 @@
          <div class="film_box">
              <img src="./assets/transformers.png">
              <h3>Transformers: The last knight</h3>
+             <a href="#"><img class="arrow" src="./assets/right-arrow.png" alt="We cant load arrow"></a>
              <p>2017 | Fantasy film | 2h 34min</p>
              <h5>2D</h5>
              <div class="buttons_2d">
@@ -74,6 +76,7 @@
           <div class="film_box">
              <img src="./assets/transformers.png">
              <h3>Transformers: The last knight</h3>
+             <a href="#"><img class="arrow" src="./assets/right-arrow.png" alt="We cant load arrow"></a>
              <p>2017 | Fantasy film | 2h 34min</p>
              <h5>2D</h5>
              <div class="buttons_2d">
