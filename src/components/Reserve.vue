@@ -1,6 +1,8 @@
 <template>
-    <div v-if="$route.fullPath == '/Reserve'">
-      <h1>TEST HIDDEN LINK</h1>
+    <div v-if="$route.fullPath == '/reservation'">
+      <div class="banner-top">
+          <h3>Transformers</h3>
+      </div>
     </div>
 </template>
 
@@ -10,7 +12,10 @@ export default {
 </script>
 
 <style>
-h1{
-    background-color: green;
+
+.banner-top{
+  background-color: rgb(9, 128, 149);
+  padding: 30px;
 }
+
 </style>
