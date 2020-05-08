@@ -1,21 +1,22 @@
 <template>
     <div v-if="$route.fullPath == '/reservation'">
-      <div class="banner-top">
-          <h3>Transformers</h3>
-      </div>
+          <Header></Header>
     </div>
 </template>
 
 <script>
+import Header from "../components/Header.vue";
+
 export default {
+  name: "Reserve",
+  components:{
+    Header,
+  }
 }
 </script>
 
 <style>
 
-.banner-top{
-  background-color: rgb(9, 128, 149);
-  padding: 30px;
-}
+@import "../styles/_header.scss";
 
 </style>
