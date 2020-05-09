@@ -1,0 +1,96 @@
+@media only screen and (max-width: 479px){
+    #reservation{
+        .banner-top{
+            img{
+                display: flex;
+                max-width: 100%;
+                filter: brightness(80%);
+            }
+            .button_banner{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                button{
+                    background-color: rgb(243, 86, 151);
+                    border: none;
+                    border-radius: 4px;
+                    padding: 10px 20px 10px 20px;
+                    color: #fff;
+                    position: absolute;
+                    margin-top: -60px;
+                    box-shadow: 0 0 5px gray;
+
+                     &:hover{
+                         outline: none;
+                     }
+                }
+                span{
+                    color: #000;
+                }
+            }
+            .text_banner{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h4{
+                    color: #fff;
+                    position: absolute;
+                    margin-top: -120px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #reservation{
+        img{
+            display: flex;
+            width: 100%;
+            filter: brightness(80%);
+        }
+
+        .button_banner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            button{
+                background-color: rgb(243, 86, 151);
+                border: none;
+                border-radius: 4px;
+                padding: 10px 20px 10px 20px;
+                color: #fff;
+                position: absolute;
+                margin-top: -130px;
+                box-shadow: 0 0 5px gray;
+            }
+            span{
+                color: #000;
+            }
+        }
+
+        .text_banner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h4{
+                color: #fff;
+                position: absolute;
+                margin-top: -180px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 23px;
+            }
+        }
+    }
+    .text_h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+}

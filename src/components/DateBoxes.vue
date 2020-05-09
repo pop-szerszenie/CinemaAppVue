@@ -32,6 +32,6 @@ export default {
 
 <style lang="scss">
 
-@import "../styles/_dateboxes.scss";
+@import "../styles/Homepage/_dateboxes.scss";
 
 </style>

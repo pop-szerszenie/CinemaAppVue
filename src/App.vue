@@ -28,10 +28,9 @@ export default {
 
 <style lang="scss">
 
-  @import "./styles/_header.scss";
-  @import "./styles/_dateboxes.scss";
-  @import "./styles/_filmsboxes.scss";
-  @import "./styles/_style.scss";
-  @import "./styles/_media.scss";
+  @import "./styles/Homepage/_header.scss";
+  @import "./styles/Homepage/_dateboxes.scss";
+  @import "./styles/Homepage/_filmsboxes.scss";
+  @import "./styles/Homepage/_style.scss";
 
 </style>

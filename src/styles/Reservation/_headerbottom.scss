@@ -1,0 +1,54 @@
+#reservation .header{
+    background-color: black !important;
+    padding: 5px;
+
+    .left_logo{
+      p{
+          color: rgb(235, 35, 118);;
+          font-family: Arial;
+          letter-spacing: 1px;
+        }
+     }
+     .icon_right{
+       img.icon1{
+          float: right;
+          margin-top: -30px;
+          margin-right: 80px;
+       }
+       img.icon2{
+          float: right;
+          margin-top: -30px;
+          margin-right: 40px;
+        }
+     }
+     
+  }
+@media only screen and (max-width: 479px){
+  .text_h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #reservation .header{
+     .icon_right{
+       img.icon1{
+          margin-top: -30px;
+          margin-right: -400px;
+       }
+       img.icon2{
+          margin-right: -450px;
+       }
+     }
+  }
+    .text_h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+}
+

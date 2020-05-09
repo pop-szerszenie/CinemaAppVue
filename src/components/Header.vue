@@ -18,6 +18,6 @@
 
 <style lang="scss">
 
-@import "../styles/_header.scss";
+@import "../styles/Homepage/_header.scss";
 
 </style>

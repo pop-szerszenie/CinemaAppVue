@@ -65,6 +65,6 @@ export default {
 
 <style lang="scss">
 
-@import "../styles/_filmsboxes.scss";
+@import "../styles/Homepage/_filmsboxes.scss";
 
 </style>
