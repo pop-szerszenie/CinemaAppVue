@@ -8,6 +8,8 @@ export default new Router({
         {
             path: '/reservation',
             name: 'reservation',
-        }
+            path2: '/payment',
+            name2: 'payment',
+        },
     ]
 })

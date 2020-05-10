@@ -2,9 +2,14 @@
   <div id="app">
     
     <Reserve></Reserve>
-    <Header v-if="$route.fullPath !== '/reservation'"></Header>
-    <DateBoxes></DateBoxes>
-    <FilmsBoxes></FilmsBoxes>
+    <Payment></Payment>
+    <Header v-if="$route.fullPath !== '/reservation' && $route.fullPath !== '/payment'"></Header>
+    <DateBoxes v-if="$route.fullPath !== '/payment'"></DateBoxes>
+    <FilmsBoxes v-if="$route.fullPath !== '/payment'"></FilmsBoxes>
+    <BannerTop v-if="$route.fullPath !== '/reservation'"></BannerTop>
+    <ChooseSeating v-if="$route.fullPath !== '/reservation'"></ChooseSeating>
+    <InfoSeating v-if="$route.fullPath !== '/reservation'"></InfoSeating>
+    <CheckPayment v-if="$route.fullPath !== '/reservation'"></CheckPayment>
 
   </div>
 </template>
@@ -14,6 +19,11 @@ import Reserve from "./components/Reserve.vue";
 import Header from "./components/Header.vue";
 import DateBoxes from "./components/DateBoxes.vue";
 import FilmsBoxes from "./components/FilmsBoxes.vue";
+import Payment from "./components/Payment.vue";
+import BannerTop from "./components/BannerTop.vue";
+import ChooseSeating from "./components/ChooseSeating.vue";
+import InfoSeating from "./components/InfoSeating.vue";
+import CheckPayment from "./components/CheckPayment.vue";
 
 export default {
   name: 'App',
@@ -22,6 +32,11 @@ export default {
     Header,
     DateBoxes,
     FilmsBoxes,
+    Payment,
+    BannerTop,
+    ChooseSeating,
+    InfoSeating,
+    CheckPayment,
     }
 }
 </script>
