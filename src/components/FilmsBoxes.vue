@@ -39,7 +39,7 @@
           <div class="film_box">
              <img src="../assets/transformers.png">
              <h3>Transformers: The last knight</h3>
-             <router-link to="/reservation" v-if="$route.fullPath !== '/reservation'"><img class="arrow" src="/assets/right-arrow.png" alt="We cant load arrow"></router-link>
+             <router-link to="/reservation" v-if="$route.fullPath !== '/reservation'"><img class="arrow" src="../assets/right-arrow.png" alt="We cant load arrow"></router-link>
              <router-view/>
              <p>2017 | Fantasy film | 2h 34min</p>
              <h5>2D</h5>

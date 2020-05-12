@@ -6,7 +6,7 @@
     <Header v-if="$route.fullPath !== '/reservation' && $route.fullPath !== '/payment'"></Header>
     <DateBoxes v-if="$route.fullPath !== '/payment'"></DateBoxes>
     <FilmsBoxes v-if="$route.fullPath !== '/payment'"></FilmsBoxes>
-    <BannerTop v-if="$route.fullPath !== '/reservation'"></BannerTop>
+    <BannerTop v-if="$route.fullPath !== '/reservation' && $route.fullPath !== '/payment'"></BannerTop>
     <ChooseSeating v-if="$route.fullPath !== '/reservation'"></ChooseSeating>
     <InfoSeating v-if="$route.fullPath !== '/reservation'"></InfoSeating>
     <CheckPayment v-if="$route.fullPath !== '/reservation'"></CheckPayment>
