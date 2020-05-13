@@ -26,7 +26,8 @@
             </div>
          </div>
          <div class="pay">
-           <button>Pay</button>
+           <router-link to="/confirm"><button>Pay</button></router-link>
+           <router-view/>
          </div>
          <Header></Header>
     </div>

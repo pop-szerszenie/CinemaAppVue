@@ -10,6 +10,8 @@ export default new Router({
             name: 'reservation',
             path2: '/payment',
             name2: 'payment',
+            path3:  '/confirm',
+            name3: 'ConfirmationPayment'
         },
     ]
 })
