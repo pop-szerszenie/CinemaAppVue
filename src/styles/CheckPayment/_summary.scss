@@ -1,0 +1,178 @@
+@media only screen and (max-width: 479px) {
+    .summary-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+          
+      .summary {
+        padding: 15px;
+        background-color: #0e0e0e;
+        border-radius: 15px;
+        color: #fff;
+        width: 80%;
+
+        h5 {
+            margin-top: -5px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      }
+      .amount_price {
+        border: 10px solid #fff;
+        border-radius: 5px;
+        padding: 20px 0px 20px;
+        color: #f35697;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+    h4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .choose_payment {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+         
+      .payment_box {
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 0 0 10px gray;
+        padding: 20px;
+        border-radius: 10px;
+
+        h5 {
+            margin-top: -10px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        img {
+            width: 42px;
+            height: 42px;
+            margin-top: -20px;
+            margin-bottom: -10px;
+          }
+      }
+    }
+    .pay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+         
+      button {
+        border: none;
+        background-color: #4dc2c2;
+        padding: 15px;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 130px;
+          
+            &:hover {
+                outline: none;
+                cursor: pointer;
+              }
+      }
+    }
+}
+  
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .summary-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .summary-box .summary {
+      padding: 15px;
+      background-color: #0e0e0e;
+      border-radius: 15px;
+      color: #fff;
+      width: 80%;
+    }
+    .summary-box .summary h5 {
+      margin-top: -5px;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .summary-box .amount_price {
+      border: 10px solid #fff;
+      border-radius: 5px;
+      padding: 20px 0px 20px;
+      color: #f35697;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 1px;
+      text-align: center;
+      font-weight: bold;
+    }
+    h4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .choose_payment {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    .choose_payment .payment_box {
+      margin-left: 10px;
+      margin-right: 10px;
+      box-shadow: 0 0 10px gray;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .choose_payment .payment_box h5 {
+      margin-top: -10px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+    .choose_payment .payment_box img {
+      width: 42px;
+      height: 42px;
+      margin-top: -20px;
+      margin-bottom: -10px;
+    }
+    .pay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .pay button {
+      border: none;
+      background-color: #4dc2c2;
+      padding: 15px;
+      font-weight: bold;
+      border-radius: 5px;
+      width: 130px;
+    }
+    .pay button:hover {
+      outline: none;
+      cursor: pointer;
+    }
+  }
+  

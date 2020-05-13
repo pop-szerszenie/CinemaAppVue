@@ -1,5 +1,5 @@
 <template>
-    <div class="banner-top">
+    <div class="banner-top" v-if="$route.fullPath == '/reservation' || $route.fullPath == '/payment'">
               <img src="../assets/banner-top.png">
             <div class="text_banner">
                   <h4>TRANSFORMERS</h4>
