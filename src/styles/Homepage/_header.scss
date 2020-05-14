@@ -38,11 +38,17 @@
          display: flex;
          float: right;
         img.icon1{
-           margin-top: -30px;
+           margin-top: -40px;
+           margin-bottom: 10px;
            margin-right: 30px;
         }
         img.icon2{
-           margin-right: 10px;
+         margin-top: -40px;
+         margin-bottom: 10px;
+         width: 29px;
+         height: 29px;
+         margin-right: 10px;
+         margin-left: -5px;
         }
       }
    }
